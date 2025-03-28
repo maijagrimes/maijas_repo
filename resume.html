@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maija's Resume</title>
+    <link rel="icon" type="image/x-icon" sizes="180x180" href="../resources/img/8ball.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            padding-top: 0;
+            padding-bottom: 0;
+            font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .navbar-text {
+            font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: black;
+        }
+
+        .navbar img {
+            height: 90px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-gray-200 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <ul class="flex space-x-6">
+                    <li><a href="../views/home.html" class="text-gray-700 hover:text-black">Home</a></li>
+                    <li><a href="../views/hobbies.html" class="text-gray-700 hover:text-black">Hobbies</a></li>
+                    <li><a href="../views/projects.html" class="text-gray-700 hover:text-black">Projects</a></li>
+                    <li><a href="../views/resume.html" class="text-gray-700 hover:text-black">Resume</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <span class="navbar-text mr-4">Maija's Website</span>
+                <img src="../resources/img/8ball.png" alt="Icon" height="90">
+            </div>
+        </div>
+    </nav>
+    <div class="bg-gray-100">
+        <div id="resume" class="container mx-auto p-6">
+            <h1 class="text-4xl font-bold mb-4 text-center">Maija Grimes</h1>
+            <p class="text-center mb-2">maijagrimes@gmail.com | 218-213-8904</p>
+
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold mb-2">Education</h2>
+                <table class="table-auto w-full text-left border">
+                    <thead>
+                        <tr class="bg-gray-200">
+                            <th class="px-4 py-2">Institution</th>
+                            <th class="px-4 py-2">Location</th>
+                            <th class="px-4 py-2">Degree/Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border px-4 py-2">Hermantown High School</td>
+                            <td class="border px-4 py-2">Hermantown, MN</td>
+                            <td class="border px-4 py-2">
+                                Honors Graduate, Yearbook Editor, Student of the Month
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">University of Colorado Boulder</td>
+                            <td class="border px-4 py-2">Boulder, CO</td>
+                            <td class="border px-4 py-2">
+                                Bachelor of Arts, Computer Science<br>
+                                Minor in Communication<br>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold mb-2">Experience</h2>
+                <table class="table-auto w-full text-left border">
+                    <thead>
+                        <tr class="bg-gray-200">
+                            <th class="px-4 py-2">Company</th>
+                            <th class="px-4 py-2">Position</th>
+                            <th class="px-4 py-2">Location</th>
+                            <th class="px-4 py-2">Responsibilities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border px-4 py-2">Michael's Stores</td>
+                            <td class="border px-4 py-2">Sales Associate</td>
+                            <td class="border px-4 py-2">Duluth, MN</td>
+                            <td class="border px-4 py-2">Customer Service, Product Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">National Center for Women & Information Technology</td>
+                            <td class="border px-4 py-2">Data & Membership Assistant</td>
+                            <td class="border px-4 py-2">Boulder, CO</td>
+                            <td class="border px-4 py-2">Database Management, Organization</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">CU OIT - Identity & Access Management</td>
+                            <td class="border px-4 py-2">Student Analyst</td>
+                            <td class="border px-4 py-2">Boulder, CO</td>
+                            <td class="border px-4 py-2">Problem Solving, SQL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold mb-2">Skills</h2>
+                <ul class="list-disc ml-8">
+                    <li>Interpersonal Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Computer Proficiency (C++, Python, HTML, SQL)</li>
+                    <li>Customer Service</li>
+                    <li>Organization</li>
+                    <li>Time Management</li>
+                    <li>Patience</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
