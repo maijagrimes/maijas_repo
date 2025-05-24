@@ -126,6 +126,11 @@
         box-shadow: black;
     }
 
+    .card-image
+    {
+        width: 20%;
+    }
+
     .card:hover
     {
         transform: scale(1.02);
