@@ -102,7 +102,7 @@ body {
     aspect-ratio: 8.5 / 11;
     max-width: 8.5in;
     max-height: 11in;
-    align: center;
+    align-self: center;
 }
 
 h1.classified {
