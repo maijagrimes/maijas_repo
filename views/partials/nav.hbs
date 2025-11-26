@@ -1,15 +1,5 @@
-<div class="file">
-    <a href="profile.html">Profile</a>
-</div>                
-<div class="file">
-    <a href="record.html">Record</a>
-</div>        
-<div class="file">
-    <a href="evidence.html">Evidence</a>
-</div>
-<div class="file">
-    <a href="missions.html">Missions</a>
-</div>
-<div class="file">
-    <a href="accomplices.html">Accomplices</a>
-</div>
+<div class="file {{#ifEquals active "profile"}}active{{/ifEquals}}"><a href="/profile">Profile</a></div>
+<div class="file {{#ifEquals active "record"}}active{{/ifEquals}}"><a href="/record">Record</a></div>
+<div class="file {{#ifEquals active "evidence"}}active{{/ifEquals}}"><a href="/evidence">Evidence</a></div>
+<div class="file {{#ifEquals active "missions"}}active{{/ifEquals}}"><a href="/missions">Missions</a></div>
+<div class="file {{#ifEquals active "accomplices"}}active{{/ifEquals}}"><a href="/accomplices">Accomplices</a></div>

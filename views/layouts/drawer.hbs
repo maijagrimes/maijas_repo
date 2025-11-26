@@ -9,13 +9,14 @@
         <link rel="stylesheet" href="/css/fonts.css">
         <link rel="stylesheet" href="/css/addons.css">
     </head>
-    <body>
-        <nav id="navbar" class="visible">
-            {{> nav}}
-        </nav>
-        
-        {{{body}}}
+    <body class="drawer">
+        <div id="drawer-container">
+            <nav id="navbar" class="hidden">
+                {{> nav}}
+            </nav>
+            {{{body}}}
+        </div>
+
         <script src="/js/script.js"></script>
     </body>
-</html>
 </html>

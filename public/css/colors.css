@@ -2,7 +2,7 @@
     background-color: #e7c9a9;
 }
 
-#navbar .activefile {
+#navbar .file.active {
     border-color: black;
     background-color: #e7c9a9;
     border-bottom-color: #e7c9a9;
@@ -23,12 +23,12 @@ button {
     border-color: rgb(82, 82, 82);
 }
 
-body {
-    background-color: #e7c9a9;
+body.drawer {
+    background-color:gray;
 }
 
-body.home {
-    background-color: gray;
+body {
+    background-color: #e7c9a9;
 }
 
 .profile-page {
@@ -64,12 +64,12 @@ body img {
     background-color: grey;
 }
 
-nav {
+#navbar {
     color: grey;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     border-bottom-color: #e7c9a9;
 }
 
-nav a {
+#navbar a {
     color: black;
 }

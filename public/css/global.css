@@ -3,6 +3,13 @@ body {
     /* border-style: solid; */
 }
 
+/* Parent that holds both nav and cover */
+#drawer-container {
+   /* same beige color */
+    position: relative;
+    overflow: hidden;
+}
+
 #navbar {
     display: flex;
     flex-direction: row;
@@ -12,14 +19,17 @@ body {
     /* border-bottom-style: solid;
     border-bottom-width: 20px; */
     /* overflow: hidden; */
+    transition: transform 1.1s ease;
     z-index: 1000;
 }
 
-#navbar, #cover {
+#cover {
     transition: transform 1.1s ease;
+    position: relative;
+    z-index: 1;
 }
 
-#navbar .activefile {
+#navbar .file.active {
     flex: 1 1 120px;  
     border-style: solid;
     border-color: black;
@@ -33,7 +43,7 @@ body {
     border-bottom-right-radius: 0;
 }
 
-#navbar .file {
+.file {
     flex: 1 1 120px;   
     border-style: solid;
     border-color: black;
@@ -206,11 +216,12 @@ button {
     cursor: grab;
 }
 
-nav a {
+#navbar a {
     text-decoration: none;
 }
 
 .hidden {
+    display: none;
     transform: translateY(-100%);
 }
 
