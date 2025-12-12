@@ -2,7 +2,7 @@
     background-color: #e7c9a9;
 }
 
-#navbar .file.active {
+#navbar .activefile {
     border-color: black;
     background-color: #e7c9a9;
     border-bottom-color: #e7c9a9;
@@ -28,10 +28,14 @@ body.drawer {
 }
 
 body {
+    background-color: gray;
+}
+
+.in-file{
     background-color: #e7c9a9;
 }
 
-.profile-page {
+body .profile-page {
     background-color: #fdf6e3;
 }
 
