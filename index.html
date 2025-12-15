@@ -2,12 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Maija's Website</title>
-    <link rel="stylesheet" href="./resources/css/global.css">
-    <link rel="stylesheet" href="./resources/css/colors.css">
-    <link rel="stylesheet" href="./resources/css/fonts.css">
+    <script>
+        fetch("/head.html")
+        .then(res => res.text())
+        .then(data => 
+        {
+            document.head.insertAdjacentHTML("beforeend", data);
+        });
+    </script>
 </head>
 <main id="index">
 <body class="home">
@@ -21,9 +23,9 @@
         <div class="file">
             <a href="evidence.html">Evidence</a>
         </div>
-        <div class="file">
-            <a href="missions.html">Missions</a>
-        </div>
+        <!--<div class="file">
+            <a href="statements.html">Witness Statements</a>
+        </div>-->
         <div class="file">
             <a href="accomplices.html">Accomplices</a>
         </div>

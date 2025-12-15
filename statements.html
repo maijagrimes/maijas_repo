@@ -2,12 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Maija's Website</title>
-    <link rel="stylesheet" href="./resources/css/global.css">
-    <link rel="stylesheet" href="./resources/css/colors.css">
-    <link rel="stylesheet" href="./resources/css/fonts.css">
+    <script>
+        fetch("/head.html")
+        .then(res => res.text())
+        .then(data => 
+        {
+            document.head.insertAdjacentHTML("beforeend", data);
+        });
+    </script>
 </head>
 
 <body class="in-file">
@@ -21,13 +23,15 @@
         <div class="file">
             <a href="evidence.html">Evidence</a>
         </div>    
-        <div class="activefile">
-            <a href="missions.html">Missions</a>
-        </div>
+        <!--<div class="activefile">
+            <a href="statements.html">Witness Statements</a>
+        </div>-->
         <div class="file">
             <a href="accomplices.html">Accomplices</a>
         </div>
     </nav>
-
+    <div class="statements-page">
+        <h1>Official Witness Testimony</h1>
+    </div>
 </body>
 </html>

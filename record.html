@@ -2,12 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Maija's Website</title>
-    <link rel="stylesheet" href="./resources/css/global.css">
-    <link rel="stylesheet" href="./resources/css/colors.css">
-    <link rel="stylesheet" href="./resources/css/fonts.css">
+    <script>
+        fetch("/head.html")
+        .then(res => res.text())
+        .then(data => 
+        {
+            document.head.insertAdjacentHTML("beforeend", data);
+        });
+    </script>
 </head>
 
 <body class="in-file">
@@ -21,9 +23,9 @@
         <div class="file">
             <a href="evidence.html">Evidence</a>
         </div>
-        <div class="file">
-            <a href="missions.html">Missions</a>
-        </div>
+        <!--<div class="file">
+            <a href="statements.html">Witness Statements</a>
+        </div>-->
         <div class="file">
             <a href="accomplices.html">Accomplices</a>
         </div>
@@ -45,18 +47,39 @@
                 <td>Identity & Access Management Analyst</td>
                 <td>University of Colorado, Boulder</td>
                 <td>Jul. 2024 - Present</td>
+                <td>
+                    <ul>
+                        <li>Resolve account and authentication issues, including MFA and SSO.</li>
+                        <li>Utilize tools like Grouper, Oracle, Azure, DBeaver, and RabbitMQ.</li>
+                        <li>Communicate professionally with customers and other team members.</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>II</td>
                 <td>Data & Membership Assistant</td>
                 <td>National Center for Women & Information Technology</td>
                 <td>Jul. 2024 - May 2025</td>
+                <td>
+                    <ul>
+                        <li>Manage membership data using Excel, Sheets, Airtable, & SuiteCRM.</li>
+                        <li>Correspond with professionals at higher education institutions.</li>
+                        <li>Collaborate with teammates using Slack, Wrike, and Outlook.</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>III</td>
                 <td>Sales Associate</td>
                 <td>Michael's Stores</td>
                 <td>Jun. 2023 - Aug. 2023</td>
+                <td>
+                    <ul>
+                        <li>Manage transactions with customers.</li>
+                        <li>Collaborate with teammates.</li>
+                        <li>Train new employees.</li>
+                    </ul>
+                </td>
             </tr>
         </table>
         <!-- <h3>EDUCATION</h3> -->

@@ -1,164 +1,14 @@
 body {
     margin: 0px;
-    /* border-style: solid; */
+    background-color: gray;
 }
 
-/* Parent that holds both nav and cover */
-#drawer-container {
-   /* same beige color */
-    position: relative;
-    overflow: hidden;
+.in-file{
+    background-color: #e7c9a9;
 }
 
-#navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: flex-start;
-    /* border-bottom-style: solid;
-    border-bottom-width: 20px; */
-    /* overflow: hidden; */
-    transition: transform 1.1s ease;
-    z-index: 1000;
-}
-
-#cover {
-    transition: transform 1.1s ease;
-    position: relative;
-    z-index: 1;
-}
-
-#navbar .activefile {
-    flex: 1 1 120px;  
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px; 
-    margin: 10px; 
-    margin-top: 20px;
-    margin-bottom: 0px;  
-    padding: 12px;    
-    border-bottom-style: solid;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.file {
-    flex: 1 1 120px;   
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px; 
-    border-bottom-style: solid;    
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
-    margin: 10px; 
-    margin-top: 20px;
-    margin-bottom: 0px;  
-    padding: 12px;
-}
-/* 
-.file:hover {
-    transform:skew(10%);
-} */
-
-#cover {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* border-style: solid; */
-    position: static;
-}
-
-.profile-page {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* justify-content: flex-start; */
-    justify-items: flex-start;
-    align-items: flex-start;
-    align-content: space-between;
-    margin: 8%;  
-    padding: 5%;
-    aspect-ratio: 8.5 / 11;
-    max-width: 8.5in;
-    max-height: 11in;
-    /* position:absolute; */
-    border-style: solid;
-    box-shadow: 2px 2px 3px rgb(91, 88, 84);
-    transform: rotate(-1deg);
-    border-top-left-radius: 1%;
-    position: relative;
-    z-index: 2;
-    /* Removed unnecessary z-index */
-}
-
-.record-page {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    justify-items: flex-start;
-    /* align-items: flex-start;
-    align-content: space-between; */
-    margin: auto;
-    margin-top: 50px; 
-    padding: 40px;  
-    border-style: solid;
-    box-shadow: 2px 2px 3px rgb(91, 88, 84);
-    transform: rotate(.5deg);
-    border-top-left-radius: 1%;
-    position: relative; /* establish stacking context */
-    aspect-ratio: 8.5 / 11;
-    max-width: 8.5in;
-    max-height: 11in;
-}
-
-h1.classified {
-    position: absolute; 
-    z-index: 10; /* very high to appear above all images and content */
-    top: 25%;
-    right: 18%;
-    font-size: clamp(1.5rem, 3vw, 3rem);
-    transform: rotate(5deg);
-    border-top-style: solid;
-    border-bottom-style: solid;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    border-width: 3px;
-    border-radius: 4%;
-}
-
-.profile-page h1 {
-    align-self: center;
-    font-weight: 700;
-    z-index: 9999;
-}
-
-img.suspect-photo {
-    width: 25%;
-    border-style: solid;
-    border-width: 15px;
-    border-bottom-width: 60px;
-    border-radius: 1%;
-    position: absolute;
-    top: 100px;  
-    right: 60px; 
-    transform: rotate(4deg);
-    /* filter: grayscale(100%); */
-    box-shadow: 5px 5px 4px rgb(91, 88, 84);
-    z-index: 3; /* above map-photo */
-}
-
-img.map-photo {
-    z-index: 1; /* lowest layer */
-    position: absolute;
-    top: 450px;
-    width: 40%;
-    left: 40px;
-    transform: rotate(-2deg);
-    border: 20px solid rgb(245, 240, 220);
-    box-shadow: 5px 5px 4px rgb(91, 88, 84);
+p.line-right {
+    color:black;
 }
 
 .text-line {
@@ -193,18 +43,7 @@ img.map-photo {
 
 a.line-right {
     text-decoration: none;
-}
-
-.cover-photo {
-    border-style: solid;
-    box-shadow: 5px 5px 5px rgb(107, 105, 105);
-}
-
-p.cover-photo {
-    border-style: inset;
-    border-width: 15px;
-    padding: 50px;
-    margin: 100px;
+    color: black;
 }
 
 button {
@@ -213,10 +52,6 @@ button {
     border-style: solid;
     margin-bottom: 250px;    
     cursor: grab;
-}
-
-#navbar a {
-    text-decoration: none;
 }
 
 .hidden {
@@ -229,9 +64,20 @@ button {
 }
 
 table, th, td {
-    width: 100%;
     border: 1px solid;
     border-collapse: collapse;
     margin: 10px;
     padding: 10px;
+}
+
+img 
+{
+    border-style: solid;
+    border-width: 15px;
+    border-bottom-width: 60px;
+    border-radius: 1%;
+    border-color: linen;
+    width: 30%;
+    filter: sepia(60%) grayscale(40%) blur(0.02rem);
+    position: absolute;
 }

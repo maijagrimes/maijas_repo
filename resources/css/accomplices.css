@@ -1,0 +1,22 @@
+.accomplices-page
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    justify-items: flex-start;
+    /* align-items: flex-start;
+    align-content: space-between; */
+    margin: auto;
+    margin-top: 50px; 
+    padding: 40px;  
+    border-style: solid;
+    box-shadow: 2px 2px 3px rgb(91, 88, 84);
+    transform: rotate(-1deg);
+    border-top-left-radius: .5%;
+    position: relative; /* establish stacking context */
+    aspect-ratio: 8.5 / 11;
+    max-width: 8.5in;
+    max-height: 11in;
+    background-color: #fdf6e3;
+}
