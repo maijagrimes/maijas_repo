@@ -9,16 +9,12 @@
     margin: 8%;  
     padding: 5%;
     aspect-ratio: 8.5 / 11;
-    max-width: 8.5in;
-    max-height: 11in;
-    /* position:absolute; */
+    /*width: 8.5in;*/
+    width: 60%;
+    /*max-height: 11in;*/
+    position: absolute;
     border-style: solid;
     box-shadow: 2px 2px 3px rgb(91, 88, 84);
-    transform: rotate(-1deg);
-    border-top-left-radius: 1%;
-    position: relative;
-    z-index: 2;
-    /* Removed unnecessary z-index */
 }
 
 body .profile-page {
@@ -26,7 +22,7 @@ body .profile-page {
 }
 
 .profile-page h1{
-    align-self: center;
+
     font-weight: 700;
     z-index: 9999;
     color: black;
@@ -34,9 +30,9 @@ body .profile-page {
 }
 
 img.map-photo {
-    z-index: 1; /* lowest layer */
+    z-index: 3; /* lowest layer */
     position: absolute;
-    top: 450px;
+    top: 80%;
     width: 40%;
     left: 40px;
     transform: rotate(-2deg);
