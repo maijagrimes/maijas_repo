@@ -9,6 +9,7 @@ body
 {
     display: flex;
     flex-direction: column;
+    background-color: #e7c9a9;
 }
 
 .in-file{
