@@ -1,7 +1,5 @@
 .profile-page {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+
     /* justify-content: flex-start; */
     justify-items: flex-start;
     align-items: flex-start;
@@ -14,9 +12,9 @@
     /*max-height: 11in;*/
     position: absolute;
     /*border-style: solid;*/
-    box-shadow: 2px 2px 3px rgb(91, 88, 84);
-    background-image: url(../images/paper2.jpg);
-    filter: sepia(.2);
+    box-shadow: 1px 2px 2px 3px rgb(91, 88, 84);
+    background-image: url(../textures/paper7.jpg);
+    
 }
 
 body .profile-page {
@@ -38,7 +36,7 @@ img.map-photo {
     left: 40px;
     transform: rotate(-2deg);
     border: 20px solid rgb(245, 240, 220);
-    box-shadow: 5px 5px 4px rgb(91, 88, 84);
+    box-shadow: 1px 5px 5px 4px rgb(91, 88, 84);
 }
 
 img.tape1 {

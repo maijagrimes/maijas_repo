@@ -9,7 +9,7 @@
     /*overflow: hidden;*/
     transition: transform 1.1s ease;
     z-index: 1000;
-    color: grey;
+    color: black;
     background-color: black;
     border-bottom-color: #e7c9a9;
 }

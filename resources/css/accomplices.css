@@ -10,8 +10,8 @@
     margin: auto;
     margin-top: 50px; 
     padding: 40px;  
-    border-style: solid;
-    box-shadow: 2px 2px 3px rgb(91, 88, 84);
+    /*border-style: solid;*/
+    box-shadow: 1px 2px 2px 3px rgb(91, 88, 84);
     transform: rotate(-1deg);
     border-top-left-radius: .5%;
     position: relative; /* establish stacking context */
@@ -19,4 +19,5 @@
     max-width: 8.5in;
     max-height: 11in;
     background-color: #fdf6e3;
+    background-image: url(../textures/paper8.jpg);
 }

@@ -12,6 +12,16 @@ body
     background-color: #e7c9a9;
 }
 
+.paper
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: flex-start;
+    aspect-ratio: 8.5 / 11;
+    border-style: solid;
+}
+
 .in-file{
     background-color: #e7c9a9;
 }
@@ -81,12 +91,18 @@ table, th, td {
 
 img 
 {
-    border-style: solid;
-    border-width: 15px;
+    /*border-style: solid;*/
+    width: 17%;
+    /*border-width: 15px;
     border-bottom-width: 60px;
     border-radius: 1%;
     border-color: linen;
-    width: 25%;
-    filter: sepia(60%) grayscale(40%) blur(0.02rem);
+    filter: sepia(60%) grayscale(40%) blur(0.01rem);*/
     position: absolute;
+    box-shadow: 1px 2px 2px 3px rgb(91, 88, 84);
+}
+
+.texture
+{
+    box-shadow: 0 0 0 0 rgb(91, 88, 84);
 }
