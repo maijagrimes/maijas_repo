@@ -17,6 +17,14 @@
     
 }
 
+.profile-page {
+    cursor: pointer;
+}
+
+.profile-page.active {
+    cursor: default;
+}
+
 body .profile-page {
     background-color: #fdf6e3;
 }
@@ -29,8 +37,8 @@ body .profile-page {
 }
 
 img.map-photo {
-    z-index: 3; /* lowest layer */
-    position: absolute;
+    z-index: 6; /* lowest layer */
+    position:absolute;
     top: 80%;
     width: 40%;
     left: 40px;
@@ -46,4 +54,9 @@ img.tape1 {
     right: 250px;
     width: 23%;
     transform: rotate(30deg);
+}
+
+#page1, #page2
+{
+    position: absolute;
 }
