@@ -118,13 +118,3 @@ img
 {
     box-shadow: 0 0 0 0 rgb(91, 88, 84);
 }
-
-div.postits
-{
-    border: none;
-    box-shadow: none;
-    filter: grayscale(30%);
-    background-image: url(/resources/textures/postit1.png);
-    background-size: cover;
-    width: 100%;
-}
