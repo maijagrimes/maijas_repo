@@ -3,6 +3,7 @@ html, body {
     background-color: #e7c9a9;
     max-width: 100%;
     height: 100%;
+
 }
 
 body
@@ -24,6 +25,8 @@ body
 }
 
 .in-file{
+    z-index: -10000;
+    position: relative;
     background-color: #e7c9a9;
 }
 
