@@ -18,11 +18,11 @@
 }
 
 .profile-page {
-    cursor: pointer;
+    cursor: url('../textures/magnifying-glass/Magnifying\ glass\ precision.cur'), auto;
 }
 
 .profile-page.active {
-    cursor: default;
+    cursor: url('../textures/magnifying-glass/Magnifying\ glass\ classic.cur'), auto;
 }
 
 body .profile-page {

@@ -1,0 +1,51 @@
+﻿[Arrow]
+Path=Magnifying glass classic.cur
+
+[Help]
+Path=Magnifying glass help .cur
+
+[AppStarting]
+Path=Magnifying glass working in background.cur
+
+[Wait]
+Path=Magnifying glass busy.cur
+
+[Crosshair]
+Path=Magnifying glass precision.cur
+
+[IBeam]
+Path=Magnifying glass text.cur
+
+[No]
+Path=Magnifying glass unavailiable.cur
+
+[SizeNS]
+Path=Magnifying glass vertical.cur
+
+[SizeWE]
+Path=Magnifying glass horizontal.cur
+
+[SizeNWSE]
+Path=Magnifying glass diagonal 1.cur
+
+[SizeNESW]
+Path=Magnifying glass diagonal 2.cur
+
+[SizeAll]
+Path=Magnifying glass move.cur
+
+[NWPen]
+Path=Magnifying glass handwriting.cur
+
+[UpArrow]
+Path=Magnifying glass alternate.cur
+
+[Hand]
+Path=Magnifying glass link.ani
+
+[Pin]
+Path=Magnifying glass location.ani
+
+[Person]
+Path=Magnifying glass person.ani
+
