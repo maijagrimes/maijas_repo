@@ -46,10 +46,12 @@ document.addEventListener("DOMContentLoaded", () => {
 let childElement = document.querySelectorAll(".image-container");
 
 //Array of image URLs
-let imageUrls = ["./resources/images/meandkathryn.png", "./resources/images/boulderhiking.png", "./resources/images/poncho.png", "./resources/images/football.png", "./resources/images/jinx.png"];
+let imageUrls = ["./resources/images/jinx.png", "./resources/images/football.png", "./resources/images/poncho.png", "./resources/images/boulderhiking.png", "./resources/images/meandkathryn.png"];
 
 //Initial z-index value
 let zIndex = 1;
+
+const descriptions = document.querySelectorAll(".evidence-description");
 
 //Iterate through each image container
 childElement.forEach((element, index) => {
@@ -59,8 +61,18 @@ childElement.forEach((element, index) => {
     img.setAttribute("class", "image");
     element.appendChild(img);
 
+    element.style.zIndex = (imageUrls.length - index).toString();
+
     //Add a click event listener to each image container
-    element.addEventListener("click", () => {
+element.addEventListener("click", () => {
+    descriptions.forEach(desc => {
+        desc.classList.remove("active-description");
+    });
+    let activeIndex = (index + 1) % descriptions.length;
+
+    descriptions[activeIndex]
+        .classList.add("active-description");
+
     zIndex++;
     //element.style.right = "45em";
     element.style.zIndex = zIndex.toString();

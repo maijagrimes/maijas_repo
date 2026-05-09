@@ -36,15 +36,20 @@ body .profile-page {
     color: black;
 }
 
-img.map-photo {
-    z-index: 6; /* lowest layer */
-    position:absolute;
-    top: 80%;
-    width: 40%;
+.map-photo {
+    z-index: 7; /* lowest layer */
+    position: absolute;
+    top: 100%;
+    width: 600px;
     left: 40px;
     transform: rotate(-2deg);
     border: 20px solid rgb(245, 240, 220);
     box-shadow: 1px 5px 5px 4px rgb(91, 88, 84);
+}
+
+.map-photo:hover
+{
+    transform: scale(1.03); 
 }
 
 img.tape1 {
