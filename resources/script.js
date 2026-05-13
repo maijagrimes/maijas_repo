@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 let childElement = document.querySelectorAll(".image-container");
 
 //Array of image URLs
-let imageUrls = ["./resources/images/jinx.png", "./resources/images/football.png", "./resources/images/poncho.png", "./resources/images/boulderhiking.png", "./resources/images/meandkathryn.png"];
+let imageUrls = ["./resources/images/jinx.jpeg", "./resources/images/football.jpeg", "./resources/images/poncho.jpeg", "./resources/images/boulderhiking.jpeg", "./resources/images/meandkathryn.jpeg"];
 
 //Initial z-index value
 let zIndex = 1;

@@ -3,10 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    justify-items: flex-start;
-    /* align-items: flex-start;
-    align-content: space-between; */
     margin: auto;
     margin-top: 50px; 
     padding: 40px;  

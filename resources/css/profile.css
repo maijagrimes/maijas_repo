@@ -39,7 +39,7 @@ body .profile-page {
 .map-photo {
     z-index: 7; /* lowest layer */
     position: absolute;
-    top: 100%;
+    top: 120%;
     width: 600px;
     left: 40px;
     transform: rotate(-2deg);
